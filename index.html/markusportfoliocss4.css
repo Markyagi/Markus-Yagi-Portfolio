@@ -1,0 +1,349 @@
+html {}
+
+header {}
+
+.mainsec {
+    width: 70%;
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.main-sidenav {
+    float: left;
+    width: 30%;
+}
+
+.nav {
+    text-align: right;
+    padding: 6px 8px 6px 16px;
+    margin: 50px 120px;
+    color: white;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration-color: #fff;
+    color: white;
+}
+
+.nav-btn:active {
+    background-color: #656566
+}
+
+.nav-btn-H {
+    border-color: #fff;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+}
+
+.nav-btn-H:active {
+    background-color: #656566
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+}
+
+.submission {
+  background-color: lightgrey;
+  width: 500px;
+  height: 400px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  padding-top: -10%;
+  padding-bottom: -50%;
+}
+
+.submission-form {
+  text-align: center;
+    width: 500px;
+  height: 400px;
+  margin-left: -30px;
+  margin-top: -20px;
+  margin-bottom: auto;
+  padding-top: -10%;
+  padding-bottom: -50%;
+}
+
+/**NAVIGATION**/
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+body {
+    background-image: url("P4_background.png");
+    overflow: hidden;
+    background-size: 105%;
+    color: #545454;
+    font-family: "Sofia", Sofia, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+
+.sidenav-text {
+    position: fixed;
+    top: 90px;
+    left: 10px;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding-top 60px;
+}
+
+.sidenav {
+    opacity: 30%;
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    z-index: block;
+    top: 0;
+    left: 0;
+    background-color: #454647;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: block;
+}
+
+li {
+    text-decoration: none;
+    position: relative;
+    background-color: white;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding-top: 1%;
+    padding-bottom: 5px;
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 45px;
+    /* Set a width if needed */
+    height: 35px;
+    display: block;
+    /* Make the buttons appear below each other */
+    margin-bottom: 5px;
+    margin-left: 12px;
+    border-radius: 50%;
+    left: -30px;
+    bottom: -330px;
+    text-align: center;
+}
+
+.social a:not(:last-child) {
+    border-bottom: none;
+    /* Prevent double borders */
+}
+
+.social img {
+    margin-top: 13%;
+    width: 15%
+}
+
+/* Add a background color on hover */
+li:hover {
+    background-color: #000;
+    cursor: pointer;
+    border-color:#000;
+}
+
+.sidenav a {
+    position: fixed;
+    padding: 6px 4px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+head {
+    font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto;
+    outline-color: aliceblue;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+p {
+    margin: 0 auto;
+}
+
+#contact-btn {
+    margin: 0 0 0 450px;
+    text-align: right;
+    padding: 4px 30px;
+    display: inline-block;
+    cursor: pointer;
+    border-color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border-style: solid;
+    font-family: "Orbitron", sans-serif;
+    color: white;
+}
+
+.button-span {
+    cursor: pointer;
+    border-color: white;
+    text-decoration-color: white;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    background-color: grey;
+}
+
+#contact-btn:hover {
+    background-color: grey;
+}
+
+#contact-btn:active {
+    background-color: transparent;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button:active span {
+    background-color: transparent;
+}
+footer {
+    background-color: #000;
+}
+
+.navbar {
+    margin: 0 0 0 160px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    border-color: transparent;
+    text-align: center;
+    padding: 0.25px 1px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 100%;
+}
+
+.navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: white;
+    border-radius: 70%;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    color: white;
+    right: 15px;
+}
+
+.navbar img {
+    width: 30px;
+    border-radius: 100%;
+    margin-left: -5px;
+    margin-bottom: px;
+    margin-top: -5px;
+}
+
+.nav2 img {
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: -19px;
+}
